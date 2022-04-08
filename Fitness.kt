@@ -1,14 +1,15 @@
-package com.oliverClimbs.climbersAssistant.data
-
-import com.oliverClimbs.climbersAssistant.centimetersInInches
-import com.oliverClimbs.climbersAssistant.data.Fitness.Gender.Male
-import com.oliverClimbs.climbersAssistant.data.Fitness.Gender.Unspecified
-import com.oliverClimbs.climbersAssistant.kilogramsInPounds
-import java.time.Duration
-import kotlin.math.roundToInt
-
 object Fitness
 {
+  const val kilogramsInPounds = 2.205
+  const val centimetersInInches = 2.54
+
+  enum class Gender
+  {
+    Unspecified,
+    Male,
+    Female
+  }
+
   /*************************************
    * Source: https://sites.google.com/site/compendiumofphysicalactivities/
    *************************************/
