@@ -1,4 +1,4 @@
-# Fitness
+# Fitness Class
 A simple singleton class that calculates fitness related values.
 
 The following values are calculated:
