@@ -3,13 +3,6 @@ object Fitness
   const val kilogramsInPounds = 2.205
   const val centimetersInInches = 2.54
 
-  enum class Gender
-  {
-    Unspecified,
-    Male,
-    Female
-  }
-
   /*************************************
    * Source: https://sites.google.com/site/compendiumofphysicalactivities/
    *************************************/
